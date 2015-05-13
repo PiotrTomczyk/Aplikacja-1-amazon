@@ -1,0 +1,6 @@
+node_modules/async
+node_modules/aws-sdk
+node_modules/ejs
+node_modules/moment
+node_modules/webs-weeia
+config.json
