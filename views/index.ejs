@@ -10,7 +10,7 @@
 	<div id="logoamazon"></div>
 	<div id="bucket">
 		<p style="margin-left:10%; font-size:40px;">Idź do kontenera: </p>
-		<div id="bucket2" ><a id="adobucket" href="http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com/list"></a>
+		<div id="bucket2" ><a id="adobucket" href="http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com:8080/list"></a>
 			<div id="bucket3">
 			<p style="margin-left:15%; margin-top:55%; font-size:30px; position:absolute"><%=bucket%></p>
 			</div>
@@ -35,11 +35,11 @@
 		<dialog open id="dialogwin" >  
 		<center><h3>Powodzenie!</h3></center>  
 		<center><p>Plik został dodany do kubełka!</p></center>
-		<center><button id="exit", onclick="location.href='http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com/'">OK</button></center>
+		<center><button id="exit", onclick="location.href='http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com:8080/'">OK</button></center>
 		</dialog>  
 	<%}%>	
 	<div id="stopka">
-	<p style="font-size:14px; margin-left:1cm; margin-top:0.8%;">&copy; Copyright 2015 by Piotr Tomczyk and Tomasz Zawadzki |<a href="http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com/">odśwież</a> |</p>
+	<p style="font-size:14px; margin-left:1cm; margin-top:0.8%;">&copy; Copyright 2015 by Piotr Tomczyk and Tomasz Zawadzki |<a href="http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com:8080/">odśwież</a> |</p>
 	</div>
 	<div>
 	</body>
