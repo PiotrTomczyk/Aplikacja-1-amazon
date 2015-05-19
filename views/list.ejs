@@ -29,7 +29,7 @@
             </a>
 		</div>
 		<div id="option2">
-			<input style="font-size:20px" id=delete type="button", onclick="location.href='http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com//delete?klucz=<%= fields[i] %>'", value="Delete"/>
+			<input style="font-size:20px" id=delete type="button", onclick="location.href='http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com:8080/delete?klucz=<%= fields[i] %>'", value="Delete"/>
 		</div>
 		<div id="option3">
 			<form id="actionform" name="wartosc", action="http://ec2-54-148-255-40.us-west-2.compute.amazonaws.com:8080/action/", method='get'>
