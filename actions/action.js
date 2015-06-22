@@ -39,19 +39,7 @@ var task = function(request, callback){
 	
 	
 
-//	var opcje = {
-//			MessageBody: msg,
-//			QueueUrl : appConfig.QueueUrl
-//	};
 
-//   sqs.sendMessage(opcje,onMessageSendConfirmed(callback));
-   
-//	var onMessageSendConfirmed = function(callback) {
-//		return function(err, data){
-//			if(err) {console.log(err); callback(err); return;}     
-//			callback(null, data);
-//  }
-//}
    }
 	
 	
